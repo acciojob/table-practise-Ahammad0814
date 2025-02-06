@@ -1,9 +1,10 @@
 /*  your css code here. If applicable */
 table {
             background-color: yellow;
-            border-collapse: collapse; /* Ensures borders do not double up */
-            width: 100%; /* Makes the table span the full width */
-        }
+			border : solid 1px black;
+            border-collapse: separate; /* Ensures borders do not double up */
+            width: 100%; /* Makes the table span the full width */    
+}
 
         /* Styling for table header, row, and data */
         th, td {
